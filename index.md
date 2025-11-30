@@ -1,4 +1,4 @@
-### ![Alt text](/assets/images/gaicg_logo.jpg)
+### ![Alt text](/assets/img/gaicg_logo.jpg)
 
 ### [Members](members.md)
 ### [Current Research Projects](projects.md)
