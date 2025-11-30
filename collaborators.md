@@ -3,9 +3,9 @@ title: Collaborators
 layout: default
 ---
 
-### Amsterdam UMC, Medical Informatics
+### Medical Informatics at Amsterdam UMC, Holland
 
-### Mario Negri Institute for Pharmacological Research
+### Mario Negri Institute for Pharmacological Research, Bergamo, Italy
 
 
 [← Back to home](index.md)
