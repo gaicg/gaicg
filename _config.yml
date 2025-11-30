@@ -1,0 +1,4 @@
+title: "Profile"
+theme: jekyll-theme-minimal
+markdown: kramdown
+highlighter: rouge
