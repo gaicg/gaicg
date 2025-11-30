@@ -1,5 +1,5 @@
 <!-- Jekyll/GitHub Pages: -->
-<img src="{{ '/assets/img/gaicg_logo.jpg' | relative_url }}" alt="GAICG Logo" width="120">
+<img src="{{ '/assets/img/gaicg_logo.jpg' | relative_url }}" alt="GAICG Logo" width="200">
 
 <!--
 GitHub preview only (commented out for Jekyll):
