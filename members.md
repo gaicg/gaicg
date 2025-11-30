@@ -3,7 +3,7 @@ title: Members
 layout: default
 ---
 
-## <span style="color: blue;">Senior Researchers</span>
+## Senior Researchers
 
 Fredrik Hessulf
 
