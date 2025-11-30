@@ -1,4 +1,4 @@
-<img src="{{ '/assets/img/gaicg_logo.jpg' | relative_url }}" alt="Alt text" width="80">
+<img src="{{ '/assets/img/gaicg_logo.jpg' | relative_url }}" alt="Alt text" width="120">
 
 ### [Members](members.md)
 ### [Current Research Projects](projects.md)
