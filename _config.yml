@@ -1,6 +1,6 @@
 title: "Gothenburg Anesthesia Intensive Care Group"
 logo: "/assets/img/gaicg_logo.jpg"
-theme: jekyll-theme-modernist
+theme: jekyll-theme-slate
 markdown: kramdown
 highlighter: rouge
 
