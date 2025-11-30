@@ -5,7 +5,7 @@ layout: default
 
 ### Our publications
 
-- **SCARS**  
+- **SCARS**
   [Link to PubMed](https://pubmed.ncbi.nlm.nih.gov/36773348/)
 
 - **Neurologic outcome**
