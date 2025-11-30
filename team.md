@@ -1,3 +1,8 @@
+---
+title: Team
+layout: default
+---
+
 # Members
 
 ## Senior Researchers
@@ -14,7 +19,7 @@ Sara Lundin
 
 Anita Szell
 
-## Pre PhD students
+## Pre-PhD students
 
 Lisa Wiltz
 
