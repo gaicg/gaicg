@@ -1,4 +1,4 @@
-<img src="/assets/img/gaicg_logo.jpg" alt="Alt text" width="80">
+<img src="/assets/img/gaicg_logo.jpg" alt="Alt text" width="100">
 
 ### [Members](members.md)
 ### [Current Research Projects](projects.md)
