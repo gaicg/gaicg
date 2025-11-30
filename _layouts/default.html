@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+
+<body>
+
+<!-- HEADER WITH TITLE + LOGO -->
+<header style="display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;">
+  
+  <!-- LEFT: Title -->
+  <h1 style="margin:0;">{{ site.title }}</h1>
+
+  <!-- RIGHT: Logo -->
+  <img src="{{ site.logo }}" alt="Logo" style="height:60px;">
+</header>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+  {{ content }}
+</div>
+
+</body>
+</html>
