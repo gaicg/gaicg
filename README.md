@@ -1,5 +1,7 @@
 # Gothenburg Anaesthesia and Intensive Care Group
 
+<img src="gaicg_logo.jpg" width="300">
+
 # Members
 
 ## Senior Researchers
