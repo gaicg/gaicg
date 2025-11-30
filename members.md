@@ -3,7 +3,7 @@ title: Members
 layout: default
 ---
 
-## Senior Researchers
+## Senior Researchers 
 
 Fredrik Hessulf
 
