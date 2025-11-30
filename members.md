@@ -3,8 +3,6 @@ title: Members
 layout: default
 ---
 
-{% include header.html %}
-
 ## Senior Researchers 
 
 Fredrik Hessulf
