@@ -3,8 +3,6 @@ title: Team
 layout: default
 ---
 
-# Members
-
 ## Senior Researchers
 
 Fredrik Hessulf
