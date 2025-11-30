@@ -3,8 +3,6 @@
   <img src="gaicg_logo.jpg" alt="Logo" style="height:60px;">
 </div>
 
-# Gothenburg Anaesthesia and Intensive Care Group
-
 - [Team](team.md)
 - [Projects](projects.md)
 - [Contact](contact.md)
