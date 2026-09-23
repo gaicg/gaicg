@@ -14,28 +14,38 @@
   people:
     - name: "Tobias Siöland"
       role: "PhD student"
-      bio: "Add doctoral project, clinical role and research interests."
+      bio: "AI in Intensive Care Medicine"
       initials: "TS"
       links: []
     - name: "Sara Lundin"
       role: "PhD student"
-      bio: "Add doctoral project, clinical role and research interests."
+      bio: "Poisonings in ICU"
       initials: "SL"
       links: []
     - name: "Anita Szell"
       role: "PhD student"
-      bio: "Add doctoral project, clinical role and research interests."
+      bio: "Orthoanesthesiology"
       initials: "AS"
+      links: []
+    - name: "Lisa Wiltz"
+      role: "PhD student"
+      bio: "Treatment limitations in ICU"
+      initials: "LW"
       links: []
 - group: "Pre-PhD students"
   people:
-    - name: "Lisa Wiltz"
+    - name: "XX"
       role: "Pre-PhD student"
       bio: "Add project focus and clinical or academic role."
       initials: "LW"
       links: []
-- group: "Residents and medical students"
+- group: "Residents"
   people:
+    - name: "Anders Green"
+      role: "Resident"
+      bio: "Early Mortality Prediction in ICU Patients Aged 80 Years and Older: A Nationwide Registry Study"
+      initials: "AG"
+      links: []
     - name: "Selma Kristjansdottir Dögg"
       role: "Resident / medical student"
       bio: "Add project focus and affiliation."
@@ -51,3 +61,17 @@
       bio: "Add project focus and affiliation."
       initials: "SD"
       links: []
+- group: "Past medical students"
+  people:
+    - name: "Emma Synnergren"
+      role: "Medical student, Master Project"
+      bio: "Tibia fractures"
+      initials: "ES"
+      links: []
+    - name: "Samuel Fredriksson"
+      role: "Medical student, Master project"
+      bio: "Epidural weaning"
+      initials: "SF"
+      links: []
+ 
+      
