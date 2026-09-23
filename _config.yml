@@ -1,0 +1,31 @@
+title: "Gothenburg Anaesthesia & Intensive Care Group"
+short_title: "GAICG"
+description: "Clinical research in anaesthesia, intensive care, emergency medicine and data-driven healthcare."
+url: "https://gaicg.github.io"
+baseurl: "/gaicg"
+lang: "en"
+locale: "en_SE"
+email: ""
+repository: "gaicg/gaicg"
+
+# Keep GitHub Pages simple and dependency-light.
+markdown: kramdown
+permalink: pretty
+
+# Brand defaults. Edit these when the group has finalized its wording.
+organization:
+  name: "Gothenburg Anaesthesia & Intensive Care Group"
+  acronym: "GAICG"
+  location: "Gothenburg, Sweden"
+  affiliation: "Add institutional affiliation"
+  contact_email: ""
+
+social:
+  github: "https://github.com/gaicg/gaicg"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

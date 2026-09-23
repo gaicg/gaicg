@@ -1,0 +1,30 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="{{ '/' | relative_url }}">{{ site.short_title }}</a>
+      <p>{{ site.organization.name }}</p>
+      <p class="muted">{{ site.organization.affiliation }}<br>{{ site.organization.location }}</p>
+    </div>
+    <div>
+      <h2 class="footer-heading">Explore</h2>
+      <ul class="footer-links">
+        {% for item in site.data.navigation %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer-heading">Research group</h2>
+      <p class="muted">Clinical and data-driven research in anaesthesia, intensive care and related fields.</p>
+      {% if site.organization.contact_email != "" %}
+        <a href="mailto:{{ site.organization.contact_email }}">{{ site.organization.contact_email }}</a>
+      {% else %}
+        <a href="{{ '/contact/' | relative_url }}">Add contact details →</a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span data-current-year></span> {{ site.short_title }}</span>
+    <span>Built for GitHub Pages · <a href="{{ site.social.github }}">Source on GitHub</a></span>
+  </div>
+</footer>

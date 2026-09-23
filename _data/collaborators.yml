@@ -1,0 +1,8 @@
+- name: "Medical Informatics at Amsterdam UMC"
+  location: "Amsterdam, the Netherlands"
+  description: "Add a short description of the collaboration and shared research themes."
+  url: ""
+- name: "Mario Negri Institute for Pharmacological Research"
+  location: "Bergamo, Italy"
+  description: "Add a short description of the collaboration and shared research themes."
+  url: ""

@@ -1,0 +1,53 @@
+- group: "Senior researchers"
+  people:
+    - name: "Fredrik Hessulf"
+      role: "Senior researcher"
+      bio: "Add clinical title, research interests and institutional affiliation."
+      initials: "FH"
+      links: []
+    - name: "Adam Piasecki"
+      role: "Senior researcher"
+      bio: "Add clinical title, research interests and institutional affiliation."
+      initials: "AP"
+      links: []
+- group: "PhD students"
+  people:
+    - name: "Tobias Siöland"
+      role: "PhD student"
+      bio: "Add doctoral project, clinical role and research interests."
+      initials: "TS"
+      links: []
+    - name: "Sara Lundin"
+      role: "PhD student"
+      bio: "Add doctoral project, clinical role and research interests."
+      initials: "SL"
+      links: []
+    - name: "Anita Szell"
+      role: "PhD student"
+      bio: "Add doctoral project, clinical role and research interests."
+      initials: "AS"
+      links: []
+- group: "Pre-PhD students"
+  people:
+    - name: "Lisa Wiltz"
+      role: "Pre-PhD student"
+      bio: "Add project focus and clinical or academic role."
+      initials: "LW"
+      links: []
+- group: "Residents and medical students"
+  people:
+    - name: "Selma Kristjansdottir Dögg"
+      role: "Resident / medical student"
+      bio: "Add project focus and affiliation."
+      initials: "SK"
+      links: []
+    - name: "Lisa Persson"
+      role: "Resident / medical student"
+      bio: "Add project focus and affiliation."
+      initials: "LP"
+      links: []
+    - name: "Sofia Dahlgren"
+      role: "Resident / medical student"
+      bio: "Add project focus and affiliation."
+      initials: "SD"
+      links: []

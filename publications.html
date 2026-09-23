@@ -1,0 +1,39 @@
+---
+layout: default
+title: "Publications"
+description: "Research publications from the Gothenburg Anaesthesia & Intensive Care Group."
+permalink: /publications/
+---
+<section class="page-hero">
+  <div class="container narrow reveal">
+    <p class="eyebrow">Research output</p>
+    <h1>Publications</h1>
+    <p class="page-intro">Use this page for full citations and stable links to PubMed and DOI records. The YAML file keeps updates quick and consistent.</p>
+  </div>
+</section>
+<section class="section section-topless">
+  <div class="container publication-page">
+    {% for year in site.data.publications %}
+    <section class="publication-year-group reveal" aria-labelledby="pub-year-{{ year.year }}">
+      <h2 id="pub-year-{{ year.year }}">{{ year.year }}</h2>
+      <div class="publication-list">
+        {% for item in year.items %}
+        <article class="publication-card">
+          <h3>{{ item.title }}</h3>
+          <p class="publication-authors">{{ item.authors }}</p>
+          <p class="publication-meta"><em>{{ item.journal }}</em> · {{ item.meta }}</p>
+          {% if item.pubmed != "" or item.doi != "" %}
+          <div class="publication-links">
+            {% if item.pubmed != "" %}<a href="{{ item.pubmed }}">PubMed <span aria-hidden="true">↗</span></a>{% endif %}
+            {% if item.doi != "" %}<a href="{{ item.doi }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
+          </div>
+          {% else %}
+          <p class="placeholder-note">Add PubMed / DOI link</p>
+          {% endif %}
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</section>
