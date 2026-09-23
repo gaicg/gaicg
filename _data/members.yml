@@ -1,13 +1,13 @@
 - group: "Senior researchers"
   people:
-    - name: "Fredrik Hessulf"
+    - name: "Fredrik Hessulf, PhD"
       role: "Senior researcher"
-      bio: "Add clinical title, research interests and institutional affiliation."
+      bio: "Senior consultant, Associate Professor"
       initials: "FH"
       links: []
-    - name: "Adam Piasecki"
+    - name: "Adam Piasecki, PhD"
       role: "Senior researcher"
-      bio: "Add clinical title, research interests and institutional affiliation."
+      bio: "Senior consultant"
       initials: "AP"
       links: []
 - group: "PhD students"
@@ -47,17 +47,17 @@
       initials: "AG"
       links: []
     - name: "Selma Kristjansdottir Dögg"
-      role: "Resident / medical student"
+      role: "Resident"
       bio: "Add project focus and affiliation."
       initials: "SK"
       links: []
     - name: "Lisa Persson"
-      role: "Resident / medical student"
+      role: "Resident"
       bio: "Add project focus and affiliation."
       initials: "LP"
       links: []
     - name: "Sofia Dahlgren"
-      role: "Resident / medical student"
+      role: "Resident"
       bio: "Add project focus and affiliation."
       initials: "SD"
       links: []
