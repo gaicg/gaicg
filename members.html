@@ -22,7 +22,18 @@ permalink: /members/
       <div class="team-grid">
         {% for person in group.people %}
         <article class="person-card reveal">
+          #<div class="avatar" aria-hidden="true">{{ person.initials }}</div>
+          {% if person.image %}
+          <div class="avatar">
+            <img
+              src="{{ person.image | relative_url }}"
+              alt="Portrait of {{ person.name }}"
+              loading="lazy"
+              >
+          </div>
+          {% else %}
           <div class="avatar" aria-hidden="true">{{ person.initials }}</div>
+{% endif %}
           <div>
             <h3>{{ person.name }}</h3>
             <p class="person-role">{{ person.role }}</p>
