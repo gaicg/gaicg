@@ -1,3 +1,17 @@
+- year: 2026
+  items:
+    - title: "Analgesic patterns and predictors of opioid consumption following epidural analgesia discontinuation after pancreatic cancer surgery"
+      authors: "Samuel Fredriksson, Christina Biörserud, Johanna Wennerblom, Jessica Komi, Natalie Svensson, Paulin Andréll, Adam Piasecki"
+      journal: "Scand J Pain."
+      meta: "2026 · Sep 9;26(1)."
+      pubmed: "https://pubmed.ncbi.nlm.nih.gov/42714852/"
+      doi: "10.1515/sjpain-2026-0027"
+    - title: "Early prognostication for ICU patients with combined respiratory and circulatory failure: an interpretable machine learning approach"
+      authors: "Adam Piasecki, Kamil Adamczyk, Marcin Śniegowski, Raffaele Mandarano, Beatrice Brunoni, Harm-Jan de Grooth, Paul W G Elbers"
+      journal: "Sci Rep."
+      meta: "2026 · Jun 25;16(1):21423"
+      pubmed: "https://pubmed.ncbi.nlm.nih.gov/42342800/"
+      doi: "10.1038/s41598-026-59064-y"
 - year: 2025
   items:
     - title: "Clinical outcomes in elderly patients on direct oral anticoagulant drugs undergoing surgery for acute hip fracture (AHF)"
