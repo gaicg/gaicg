@@ -55,11 +55,9 @@
       pubmed: "https://pubmed.ncbi.nlm.nih.gov/36773348/"
       doi: "https://doi.org/10.1016/j.ebiom.2023.104464"
       
-   - title: "Temporal variation in survival following in-hospital cardiac arrest in Sweden"
+    - title: "Temporal variation in survival following in-hospital cardiac arrest in Sweden"
       authors: "Fredrik Hessulf, Johan Herlitz, Peter Lundgren, Solveig Aune, Anna Myredal, Johan Engdahl, Araz Rawshani"
       journal: "Int J Cardiol"
       meta: "2023 · Jun 15:381:112-119"
       pubmed: "https://pubmed.ncbi.nlm.nih.gov/37023863/"
       doi: "https://doi.org/10.1016/j.ijcard.2023.03.069"
-
-      
