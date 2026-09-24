@@ -11,7 +11,7 @@
       journal: "Sci Rep."
       meta: "2026 · Jun 25;16(1):21423"
       pubmed: "https://pubmed.ncbi.nlm.nih.gov/42342800/"
-      doi: "10.1038/s41598-026-59064-y"
+      doi: "https://doi.org/10.1038/s41598-026-59064-y"
 - year: 2025
   items:
     - title: "Clinical outcomes in elderly patients on direct oral anticoagulant drugs undergoing surgery for acute hip fracture (AHF)"
@@ -19,7 +19,7 @@
       journal: "Eur J Trauma Emerg Surg"
       meta: "2025 · Nov 25;51(1):344."
       pubmed: "https://pubmed.ncbi.nlm.nih.gov/41288746/"
-      doi: "10.1007/s00068-025-03016-0"
+      doi: "https://doi.org/10.1007/s00068-025-03016-0"
     - title: "Treatment limitations"
       authors: "Add full author list"
       journal: "Add journal"
