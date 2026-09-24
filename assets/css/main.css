@@ -296,3 +296,28 @@ ul, ol { margin-top: 0; }
   .footer-grid > div:first-child { grid-column: auto; }
   .footer-bottom { flex-direction: column; }
 }
+
+/* avatar photos*/
+.avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 1.25rem;
+  background: var(--surface-alt);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
