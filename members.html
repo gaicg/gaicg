@@ -4,50 +4,91 @@ title: "Team"
 description: "Researchers, PhD students, residents and medical students in GAICG."
 permalink: /members/
 ---
+
 <section class="page-hero">
   <div class="container narrow reveal">
     <p class="eyebrow">People</p>
     <h1>Our team</h1>
-    <p class="page-intro">A multidisciplinary group of clinicians and researchers. Add titles, portraits, profile links and biographies whenever they are ready.</p>
+    <p class="page-intro">
+      A multidisciplinary group of clinicians and researchers.
+    </p>
   </div>
 </section>
+
 <section class="section section-topless">
   <div class="container">
+
     {% for group in site.data.members %}
-    <section class="team-section" aria-labelledby="team-{{ forloop.index }}">
+
+    <section
+      class="team-section"
+      aria-labelledby="team-{{ forloop.index }}"
+    >
+
       <div class="team-section-heading reveal">
         <p class="eyebrow">Team</p>
-        <h2 id="team-{{ forloop.index }}">{{ group.group }}</h2>
+        <h2 id="team-{{ forloop.index }}">
+          {{ group.group }}
+        </h2>
       </div>
+
       <div class="team-grid">
+
         {% for person in group.people %}
+
         <article class="person-card reveal">
-          #<div class="avatar" aria-hidden="true">{{ person.initials }}</div>
-          {% if person.image %}
+
           <div class="avatar">
-            <img
-              src="{{ person.image | relative_url }}"
-              alt="Portrait of {{ person.name }}"
-              loading="lazy"
+            {% if person.image %}
+              <img
+                src="{{ person.image | relative_url }}"
+                alt="Portrait of {{ person.name }}"
+                loading="lazy"
               >
-          </div>
-          {% else %}
-          <div class="avatar" aria-hidden="true">{{ person.initials }}</div>
-{% endif %}
-          <div>
-            <h3>{{ person.name }}</h3>
-            <p class="person-role">{{ person.role }}</p>
-            <p>{{ person.bio }}</p>
-            {% if person.links.size > 0 %}
-            <div class="profile-links">
-              {% for link in person.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
-            </div>
+            {% else %}
+              <span aria-hidden="true">
+                {{ person.initials }}
+              </span>
             {% endif %}
           </div>
+
+          <div class="person-content">
+
+            <h3>{{ person.name }}</h3>
+
+            {% if person.role %}
+              <p class="person-role">
+                {{ person.role }}
+              </p>
+            {% endif %}
+
+            {% if person.bio %}
+              <p>
+                {{ person.bio }}
+              </p>
+            {% endif %}
+
+            {% if person.links and person.links.size > 0 %}
+              <div class="profile-links">
+                {% for link in person.links %}
+                  <a href="{{ link.url }}">
+                    {{ link.label }}
+                  </a>
+                {% endfor %}
+              </div>
+            {% endif %}
+
+          </div>
+
         </article>
+
         {% endfor %}
+
       </div>
+
     </section>
+
     {% endfor %}
+
   </div>
 </section>
