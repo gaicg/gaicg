@@ -5,13 +5,15 @@
       journal: "Scand J Pain."
       meta: "2026 · Sep 9;26(1)."
       pubmed: "https://pubmed.ncbi.nlm.nih.gov/42714852/"
-      doi: "10.1515/sjpain-2026-0027"
+      doi: "https://doi.org/10.1515/sjpain-2026-0027"
+      
     - title: "Early prognostication for ICU patients with combined respiratory and circulatory failure: an interpretable machine learning approach"
       authors: "Adam Piasecki, Kamil Adamczyk, Marcin Śniegowski, Raffaele Mandarano, Beatrice Brunoni, Harm-Jan de Grooth, Paul W G Elbers"
       journal: "Sci Rep."
       meta: "2026 · Jun 25;16(1):21423"
       pubmed: "https://pubmed.ncbi.nlm.nih.gov/42342800/"
       doi: "https://doi.org/10.1038/s41598-026-59064-y"
+      
 - year: 2025
   items:
     - title: "Clinical outcomes in elderly patients on direct oral anticoagulant drugs undergoing surgery for acute hip fracture (AHF)"
@@ -20,31 +22,35 @@
       meta: "2025 · Nov 25;51(1):344."
       pubmed: "https://pubmed.ncbi.nlm.nih.gov/41288746/"
       doi: "https://doi.org/10.1007/s00068-025-03016-0"
-    - title: "Treatment limitations"
-      authors: "Add full author list"
+      
+    - title: "Treatment limitations - under submission"
+      authors: "Lisa Wiltz et al."
       journal: "Add journal"
       meta: "2025 · Add volume/pages"
       pubmed: ""
       doi: ""
+      
 - year: 2024
   items:
-    - title: "ICURE"
-      authors: "Add full author list"
-      journal: "Add journal"
-      meta: "2024 · Add volume/pages"
-      pubmed: ""
-      doi: ""
-    - title: "Neurologic outcome"
-      authors: "Add full author list"
-      journal: "Add journal"
-      meta: "2024 · Add volume/pages"
-      pubmed: ""
-      doi: ""
+    - title: "ICURE: Intensive care unit (ICU) risk evaluation for 30-day mortality. Developing and evaluating a multivariable machine learning prediction model for patients admitted to the general ICU in Sweden"
+      authors: "Tobias Siöland, Araz Rawshani, Bengt Nellgård, Johan Malmgren, Jonatan Oras, Keti Dalla, Giovanni Cinà, Lars Engerström, Fredrik Hessulf"
+      journal: "Acta Anaesthesiol Scand"
+      meta: "2024 · Nov;68(10):1379-1389"
+      pubmed: "https://pubmed.ncbi.nlm.nih.gov/39034628/"
+      doi: "https://doi.org/10.1111/aas.14501"
+      
+    - title: "Prediction of neurologic outcome after out-of-hospital cardiac arrest: An interpretable approach with machine learning"
+      authors: "Araz Rawshani, Fredrik Hessulf, John Deminger, Pedram Sultanian, Vibha Gupta, Peter Lundgren, Mohammed Mohammed, Monér Abu Alchay, Tobias Siöland, Emilia Gryska, Adam Piasecki"
+      journal: "Resuscitation"
+      meta: "2024 · Sep:202:110359"
+      pubmed: "https://pubmed.ncbi.nlm.nih.gov/39142467/"
+      doi: "https://doi.org/10.1016/j.resuscitation.2024.110359"
+      
 - year: 2023
   items:
-    - title: "SCARS"
-      authors: "Add full author list"
-      journal: "Add journal"
-      meta: "2023 · Add volume/pages"
-      pubmed: ""
-      doi: ""
+    - title: "Predicting survival and neurological outcome in out-of-hospital cardiac arrest using machine learning: the SCARS model"
+      authors: "Fredrik Hessulf, Deepak L Bhatt, Johan Engdahl, Peter Lundgren, Elmir Omerovic, Aidin Rawshani, Edvin Helleryd, Christian Dworeck, Hans Friberg, Björn Redfors, Niklas Nielsen, Anna Myredal, Attila Frigyesi, Johan Herlitz, Araz Rawshani"
+      journal: "EBioMedicine"
+      meta: "2023 · Mar:89:104464"
+      pubmed: "https://pubmed.ncbi.nlm.nih.gov/36773348/"
+      doi: "https://doi.org/10.1016/j.ebiom.2023.104464"
