@@ -1,5 +1,12 @@
 - year: 2026
   items:
+    - title: "Guideline‐augmented prompting improves comparative preference and response consistency of large language model outputs for orthopaedic anaesthesia questions: A controlled prompting study"
+      authors: "Anita Széll, Yinan Yu, Jacob F. Oeding, Felix C. Oettl, Adam Piasecki, Keti Dalla, Tobias Siöland, Mathias Hård af Segerstad, Fredrik Olsen, Peter Larsson, Stefano Zaffagnini, Kristian Samuelsson, Fredrik Hessulf"
+      journal: "J Exp Orthop."
+      meta: "2026 · 13:e70922. "
+      pubmed: " "
+      doi: "https://doi.org/10.1002/jeo2.70922"
+
     - title: "Analgesic patterns and predictors of opioid consumption following epidural analgesia discontinuation after pancreatic cancer surgery"
       authors: "Samuel Fredriksson, Christina Biörserud, Johanna Wennerblom, Jessica Komi, Natalie Svensson, Paulin Andréll, Adam Piasecki"
       journal: "Scand J Pain."
