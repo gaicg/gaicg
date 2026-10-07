@@ -11,6 +11,7 @@ permalink: /projects/
     <p class="page-intro">Here you can find an overview of GAICG’s ongoing research.</p>
   </div>
 </section>
+
 <section class="section section-topless">
   <div class="container">
     <div class="project-list">
@@ -20,29 +21,30 @@ permalink: /projects/
           <p class="card-kicker">{{ project.kicker }}</p>
           <h2>{{ project.title }}</h2>
         </div>
+
         <div>
-          <p>{{ project.summary }}</p>       
+          <p>{{ project.summary }}</p>
+
           <dl class="mini-meta">
             <div>
               <dt>Status</dt>
               <dd>{{ project.status }}</dd>
             </div>
 
-            {% if project.lead %}
             <div>
               <dt>Lead</dt>
               <dd>{{ project.lead }}</dd>
             </div>
-            {% endif %}
 
-            {% if project.collaborators %}
             <div>
               <dt>Collaborators</dt>
               <dd>{{ project.collaborators }}</dd>
             </div>
-            {% endif %}
           </dl>
-          {% if project.url != "" %}<a class="text-link" href="{{ project.url }}">Project details →</a>{% endif %}
+
+          {% if project.url != "" %}
+          <a class="text-link" href="{{ project.url }}">Project details →</a>
+          {% endif %}
         </div>
       </article>
       {% endfor %}
