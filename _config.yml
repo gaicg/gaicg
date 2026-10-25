@@ -1,5 +1,5 @@
-title: "Gothenburg Anaesthesia & Intensive Care Group"
-short_title: "GAICG"
+title: "Anaesthesia & Intensive Care Artificial Intelligence Group"
+short_title: "AI2G"
 description: "Clinical research in anaesthesia, intensive care, emergency medicine and data-driven healthcare."
 url: "https://gaicg.github.io"
 baseurl: "/gaicg"
@@ -14,9 +14,9 @@ permalink: pretty
 
 # Brand defaults. Edit these when the group has finalized its wording.
 organization:
-  name: "Gothenburg Anaesthesia & Intensive Care Group"
-  acronym: "GAICG"
-  location: "Gothenburg, Sweden"
+  name: "Anaesthesia & Intensive Care Artificial Intelligence Group"
+  acronym: "AI2G"
+  location: "Mölndal, Sweden"
   affiliation: "University of Gothenburg, Sahlgrenska University Hospital Mölndal"
   contact_email: ""
 
